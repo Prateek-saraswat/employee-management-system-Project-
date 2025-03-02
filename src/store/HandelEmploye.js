@@ -55,7 +55,7 @@ export const employeSlice  = createSlice({
         markAllComplete:(state,action)=>{
             const findEmploye = state.find((singleEmploye)=>singleEmploye.name===action.payload)
             findEmploye.tasks.map((singletask)=>{
-                singletask.status = 'Complete'
+                singletask.status = 'Completed'
                 
             })
             findEmploye.taskCounts.active = 0

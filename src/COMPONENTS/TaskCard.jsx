@@ -32,9 +32,9 @@ dispatch(markCompleted({title , name}))
     ''
   )}
   <h3
-    style={{ textDecorationColor: status === 'Failed' ? 'red' : '' }}
+    style={{ textDecorationColor: status === 'Failed' ? 'red' : 'white' }}
     className={`text-lg font-semibold mt-3 ${
-      status === 'Completed' || status === 'Failed' ? 'line-through' : ''
+      status === 'Completed' || status === 'Failed' ? 'line-through' : 'none'
     }`}
   >
     {title}
