@@ -1,6 +1,6 @@
 import Header from './Header'
 import TaskCard from './TaskCard'
-import TaskDetails from './taskDetails'
+import TaskDetails from './TaskDetails'
 import { useSelector } from 'react-redux'
 
 export default function Employee({name}) {
