@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import './App.css'
 import Login from './COMPONENTS/Login'
 import { useSelector } from 'react-redux'
