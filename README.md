@@ -1,17 +1,39 @@
-<<<<<<< HEAD
-# employee-management-system-Project-
 🚀 Employee Management System (EMS) is a role-based task management platform built using React.js and Redux Toolkit. It helps organizations efficiently manage employees, track tasks, and improve workflow between Admins and Employees.
-=======
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔹 Key Features:
+🔑 Secure Authentication & Role-Based Access
+✅ Admin & Employee Login: Only authorized users can access their respective dashboards.
+✅ State Management with Redux Toolkit: Ensures a smooth and optimized user experience.
+✅ Persistent User Sessions with Local Storage:
 
-Currently, two official plugins are available:
+1. Users remain logged in even after refreshing the page.
+2. Authentication details are stored in localStorage for a seamless experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📌 Admin Dashboard (Task Management System)
+👤 Admin Role:
 
-## Expanding the ESLint configuration
+View a dashboard summary of all tasks assigned to employees.
+Assign new tasks to specific employees.
+Update task statuses:
+1. ✅ Completed
+2. ❌ Failed
+3. 🔄 Active (Ongoing)
+4. Easily track the progress of all assigned tasks.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 53e4eb3 (Initial commit - Employee Management System)
+📌 Employee Dashboard (Task Overview & Tracking)
+👤 Employee Role:
+
+View a summary panel with categorized task counts:
+1. 📌 New Tasks
+2. 🚧 Active Tasks
+3. ❌ Failed Tasks
+4. ✅ Completed Tasks
+5. Interactive task cards displaying all assigned tasks in a structured format.
+
+Tech Stack Used: 🚀 Frontend:
+🔹 React.js – Component-based UI design.
+🔹 Redux Toolkit – Efficient state management.
+🔹 Tailwind CSS – Responsive and modern UI styling.
+
+🛢 Storage & Data Handling:
+🔹 LocalStorage – Used for persistent login sessions.
